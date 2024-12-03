@@ -2,10 +2,6 @@
   👑 The Legendary Lord's Domain 👑
 </h1>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" alt="Epic GIF">
-</p>
-
 <p align="center" style="font-size: 18px;">
   🖀 <strong>Welcome, Traveler!</strong> 🖀<br>
   <em>Let the Emperor's light be your guide through the darkness of the digital world.</em>
