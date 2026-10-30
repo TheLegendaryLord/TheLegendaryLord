@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="390" viewBox="0 0 1120 390" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Legend — TheLegendaryLord</title>
+  <desc id="desc">A dark cyberpunk terminal with cyan and magenta circuits, a geometric monogram, and the message: Ideas. Experiments. Code.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1120" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1423"/><stop offset="0.55" stop-color="#0A101C"/><stop offset="1" stop-color="#141027"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="34" y1="0" x2="1086" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45E6E0"/><stop offset="0.55" stop-color="#6C8FFF"/><stop offset="1" stop-color="#E67BCC"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(888 206) scale(205)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#253B65" stop-opacity=".6"/><stop offset="1" stop-color="#0A101C" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#527096" stroke-opacity=".11"/>
+    </pattern>
+  </defs>
+  <rect x=".75" y=".75" width="1118.5" height="388.5" rx="16" fill="url(#background)" stroke="#303B51" stroke-width="1.5"/>
+  <rect x="1" y="45" width="1118" height="300" fill="url(#grid)"/>
+  <path d="M1 45H1119" stroke="#303B51"/>
+  <circle cx="27" cy="23" r="5" fill="#ED6A8F"/><circle cx="47" cy="23" r="5" fill="#E9BB66"/><circle cx="67" cy="23" r="5" fill="#53D3B4"/>
+  <g font-family="'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace">
+    <text x="91" y="28" fill="#98A9C5" font-size="14">legend@github: ~</text>
+    <text x="1090" y="28" text-anchor="end" fill="#A8B4CC" font-size="12" letter-spacing="2">PERSONAL TERMINAL</text>
+    <path d="M44 87H76" stroke="#45E6E0" stroke-width="2"/>
+    <text x="88" y="92" fill="#65E4DF" font-size="14" letter-spacing="2.4">HELLO, WORLD.</text>
+    <text x="40" y="202" fill="#F1F5FF" font-size="104" font-weight="700" letter-spacing="-5">LEGEND<tspan fill="#45E6E0">_</tspan></text>
+    <text x="45" y="239" fill="#C2B4EE" font-size="20" letter-spacing="2">@TheLegendaryLord</text>
+    <text x="45" y="284" fill="#A9B9D1" font-size="18">Идеи. Эксперименты. Код.</text>
+    <text x="45" y="357" fill="#96A8C5" font-size="13" letter-spacing="1.2"><tspan fill="#45E6E0">~/</tspan> THELEGENDARYLORD</text>
+    <text x="1075" y="357" text-anchor="end" fill="#96A8C5" font-size="13" letter-spacing="1.2">EXPLORE <tspan fill="#E67BCC">↗</tspan></text>
+  </g>
+  <path d="M45 317H1075" stroke="#2B3549"/>
+  <circle cx="885" cy="184" r="155" fill="url(#halo)"/>
+  <g stroke-linejoin="round">
+    <path d="M884 68 1006 138V255L884 325 762 255V138Z" stroke="#233D56" stroke-width="1.2"/>
+    <path d="M884 91 985 149V243L884 301 783 243V149Z" stroke="url(#accent)" stroke-opacity=".75" stroke-width="1.5"/>
+    <path d="M884 114 965 161V231L884 278 803 231V161Z" fill="#0F1828" stroke="#344865"/>
+    <path d="M848 153V229H921" stroke="#45E6E0" stroke-width="14"/>
+    <path d="M873 153V205H922" stroke="#D88BCD" stroke-width="8"/>
+    <path d="M844 239H921" stroke="#45E6E0" stroke-opacity=".2" stroke-width="2"/>
+  </g>
+  <g stroke="#344D68" stroke-width="1.2">
+    <path d="M726 118H690L676 132H638"/><path d="M1009 206H1040L1054 192H1091"/>
+    <path d="M748 263H707L691 279H646"/><path d="M979 100H1023L1037 86H1075"/>
+  </g>
+  <g fill="#45E6E0"><circle cx="638" cy="132" r="3"/><circle cx="1091" cy="192" r="3"/><circle cx="762" cy="138" r="3"/></g>
+  <g fill="#E67BCC"><circle cx="646" cy="279" r="3"/><circle cx="1075" cy="86" r="3"/><circle cx="1006" cy="255" r="3"/></g>
+  <path d="M44 65H32V88M1088 65H1076M1088 65V88M1088 289V301H1076" stroke="#466079"/>
+</svg>
