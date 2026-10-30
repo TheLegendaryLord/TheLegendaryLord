@@ -1,0 +1,50 @@
+name: F1 tracker
+
+on:
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_f1.py'
+      - 'tests/test_update_f1.py'
+      - '.github/workflows/f1-tracker.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: f1-profile-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Test data validation and failure handling
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Fetch standings and render tracker
+        run: python3 scripts/update_f1.py
+
+      - name: Publish changed results
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          if git diff --quiet -- README.md data/f1.json assets/f1-max.svg assets/f1-max-mobile.svg; then
+            echo "No new results."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md data/f1.json assets/f1-max.svg assets/f1-max-mobile.svg
+          git commit -m 'Update Max Verstappen championship tracker'
+          git pull --rebase origin "$DEFAULT_BRANCH"
+          git push origin "HEAD:$DEFAULT_BRANCH"

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="270" viewBox="0 0 1100 270" role="img" aria-labelledby="title desc">
+<title id="title">Max Verstappen championship tracker</title>
+<desc id="desc">236 points, position 4, 129 points behind the leader. Season 2026, round 18.</desc>
+<rect x="1" y="1" width="1098" height="268" rx="10" fill="#0c1320" stroke="#2c374b"/>
+<path d="M2 24V246" stroke="#ed243e" stroke-width="4"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="40" y="44" fill="#f4eedf" font-size="24" font-weight="700">MAX VERSTAPPEN / #3</text>
+<text x="1060" y="44" text-anchor="end" fill="#9caabc" font-size="18">2026 SEASON / ROUND 18</text>
+<text x="40" y="156" fill="#f4eedf" font-size="88" font-weight="800" letter-spacing="-3">236</text>
+<text x="42" y="194" fill="#a9b4c4" font-size="17" letter-spacing="1.2">POINTS</text>
+<text x="400" y="156" fill="#ed334a" font-size="88" font-weight="800" letter-spacing="-3">P4</text>
+<text x="402" y="194" fill="#a9b4c4" font-size="17" letter-spacing="1.2">CHAMPIONSHIP</text>
+<text x="755" y="156" fill="#f4eedf" font-size="88" font-weight="800" letter-spacing="-3">−129</text>
+<text x="757" y="194" fill="#a9b4c4" font-size="17" letter-spacing="1.2">TO LEADER</text>
+<path d="M36 218H1064" stroke="#2c374b"/>
+<text x="36" y="248" fill="#a9b4c4" font-size="16">GRAND PRIX WINS / <tspan fill="#f4eedf" font-weight="700">2</tspan></text>
+<text x="1064" y="248" text-anchor="end" fill="#9caabc" font-size="14">MV / F1</text>
+</g></svg>
