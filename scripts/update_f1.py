@@ -147,7 +147,7 @@ def render_svg(state, mobile=False):
     width, height = (560, 500) if mobile else (1100, 270)
     places = [(36, 210, 116), (310, 210, 100), (36, 368, 100)] if mobile else [(40, 156, 88), (400, 156, 88), (755, 156, 88)]
     values = [driver["points"], f'P{driver["position"]}', ("−" if gap else "") + number(gap)]
-    labels = ["POINTS", "CHAMPIONSHIP", "TO LEADER" if driver["position"] != 1 else "CHAMPIONSHIP LEADER"]
+    labels = ["POINTS", "POSITION", "TO LEADER" if driver["position"] != 1 else "CHAMPIONSHIP LEADER"]
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
              '<title id="title">Max Verstappen championship tracker</title>',
              f'<desc id="desc">{escape(driver["points"])} points, position {driver["position"]}, {number(gap)} points behind the leader. Season {state["season"]}, round {state["round"]}.</desc>',
@@ -191,7 +191,9 @@ def standings_table(state, compact=False):
 
 
 def render_block(state):
-    revision = hashlib.sha256(json.dumps(state, sort_keys=True).encode()).hexdigest()[:12]
+    # Include the actual artwork so GitHub's image cache also refreshes after design changes.
+    artwork = render_svg(state) + render_svg(state, mobile=True)
+    revision = hashlib.sha256(artwork.encode()).hexdigest()[:12]
     driver = max_driver(state)
     gap = number(points(state["drivers"][0]["points"]) - points(driver["points"]))
     alt = f'Max Verstappen: {driver["points"]} очков, P{driver["position"]}, {gap} очков до лидера'

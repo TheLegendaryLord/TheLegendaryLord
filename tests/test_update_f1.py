@@ -6,6 +6,7 @@ import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.etree import ElementTree
+from unittest.mock import patch
 
 SPEC = importlib.util.spec_from_file_location("update_f1", Path(__file__).resolve().parents[1] / "scripts/update_f1.py")
 f1 = importlib.util.module_from_spec(SPEC)
@@ -142,6 +143,14 @@ class TrackerTests(unittest.TestCase):
         for readme in ("no markers", f1.END + f1.START, f1.START + f1.START + f1.END):
             with self.subTest(readme=readme), self.assertRaises(ValueError):
                 f1.replace_block(readme, "new content")
+
+    def test_image_cache_key_changes_when_artwork_changes(self):
+        self.update()
+        state = json.loads((self.root / "data/f1.json").read_text(encoding="utf-8"))
+        before = f1.render_block(state)
+        with patch.object(f1, "render_svg", return_value="new card design"):
+            after = f1.render_block(state)
+        self.assertNotEqual(before, after)
 
 
 if __name__ == "__main__":
