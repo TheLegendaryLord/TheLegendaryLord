@@ -11,8 +11,8 @@
 ## Max / Championship tracker
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=f66775a549fd" />
-  <img src="./assets/f1-max.svg?v=f66775a549fd" width="100%" alt="Max Verstappen: 236 очков, P4, 129 очков до лидера" />
+  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=f0738a3a077c" />
+  <img src="./assets/f1-max.svg?v=f0738a3a077c" width="100%" alt="Max Verstappen: 236 очков, P4, 129 очков до лидера" />
 </picture>
 
 **Последний Гран-при:** United States Grand Prix · 2026-10-25 · **P3** · **+15 очков в гонке**.
