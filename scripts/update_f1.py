@@ -176,7 +176,7 @@ def standings_table(state, compact=False):
     if compact:
         index = next(i for i, d in enumerate(drivers) if d["id"] == DRIVER)
         selected = set(range(min(5, len(drivers)))) | set(range(max(0, index-1), min(len(drivers), index+2)))
-    rows = ["| # | Пилот | Команда | Очки |", "| --: | :-- | :-- | --: |"]
+    rows = ["| # | Driver | Team | Points |", "| --: | :-- | :-- | --: |"]
     last = -1
     for i in sorted(selected):
         if i > last + 1:
@@ -196,7 +196,7 @@ def render_block(state):
     revision = hashlib.sha256(artwork.encode()).hexdigest()[:12]
     driver = max_driver(state)
     gap = number(points(state["drivers"][0]["points"]) - points(driver["points"]))
-    alt = f'Max Verstappen: {driver["points"]} очков, P{driver["position"]}, {gap} очков до лидера'
+    alt = f'Max Verstappen: {driver["points"]} points, P{driver["position"]}, {gap} points behind the leader'
     race = state["race"]
     return f'''{START}
 
@@ -207,22 +207,22 @@ def render_block(state):
   <img src="./assets/f1-max.svg?v={revision}" width="100%" alt="{escape(alt, quote=True)}" />
 </picture>
 
-**Последний Гран-при:** {md(race["name"])} · {race["date"]} · **{md(race["finish"])}** · **+{race["points"]} очков в гонке**.
+**Last Grand Prix:** {md(race["name"])} · {race["date"]} · **{md(race["finish"])}** · **+{race["points"]} race points**.
 
-### Зачёт пилотов · {state["season"]}
+### Drivers' standings · {state["season"]}
 
 {standings_table(state, compact=True)}
 
 <details>
-<summary>Все пилоты ({len(state["drivers"])})</summary>
+<summary>All drivers ({len(state["drivers"])})</summary>
 
 {standings_table(state)}
 
 </details>
 
-<sub>Данные после раунда {state["round"]}. Последнее изменение: {state["updated_at"]}. Автопроверка каждые 30 минут. Зачёт обновляется после публикации результатов; возможна задержка.</sub>
+<sub>Standings after Round {state["round"]}. Last data change: {state["updated_at"]}. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
 
-<sub>Источник: [Jolpica F1](https://api.jolpi.ca/ergast/f1/{state["season"]}/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Официальный зачёт F1](https://www.formula1.com/en/results/{state["season"]}/drivers) · [Статус обновления](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
+<sub>Source: [Jolpica F1](https://api.jolpi.ca/ergast/f1/{state["season"]}/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Official F1 standings](https://www.formula1.com/en/results/{state["season"]}/drivers) · [Update status](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
 
 {END}'''
 
@@ -276,3 +276,4 @@ if __name__ == "__main__":
         print(f"F1 update failed; last published data retained: {error}", file=sys.stderr)
         sys.exit(1)
     print("Updated: " + ", ".join(changed) if changed else "No new results; profile unchanged.")
+

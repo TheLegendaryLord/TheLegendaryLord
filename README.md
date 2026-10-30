@@ -12,14 +12,14 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=f0738a3a077c" />
-  <img src="./assets/f1-max.svg?v=f0738a3a077c" width="100%" alt="Max Verstappen: 236 очков, P4, 129 очков до лидера" />
+  <img src="./assets/f1-max.svg?v=f0738a3a077c" width="100%" alt="Max Verstappen: 236 points, P4, 129 points behind the leader" />
 </picture>
 
-**Последний Гран-при:** United States Grand Prix · 2026-10-25 · **P3** · **+15 очков в гонке**.
+**Last Grand Prix:** United States Grand Prix · 2026-10-25 · **P3** · **+15 race points**.
 
-### Зачёт пилотов · 2026
+### Drivers' standings · 2026
 
-| # | Пилот | Команда | Очки |
+| # | Driver | Team | Points |
 | --: | :-- | :-- | --: |
 | 1 | Andrea Kimi Antonelli | Mercedes | 365 |
 | 2 | George Russell | Mercedes | 242 |
@@ -28,9 +28,9 @@
 | 5 | Charles Leclerc | Ferrari | 233 |
 
 <details>
-<summary>Все пилоты (23)</summary>
+<summary>All drivers (23)</summary>
 
-| # | Пилот | Команда | Очки |
+| # | Driver | Team | Points |
 | --: | :-- | :-- | --: |
 | 1 | Andrea Kimi Antonelli | Mercedes | 365 |
 | 2 | George Russell | Mercedes | 242 |
@@ -58,9 +58,9 @@
 
 </details>
 
-<sub>Данные после раунда 18. Последнее изменение: 2026-10-30 18:07 UTC. Автопроверка каждые 30 минут. Зачёт обновляется после публикации результатов; возможна задержка.</sub>
+<sub>Standings after Round 18. Last data change: 2026-10-30 18:07 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
 
-<sub>Источник: [Jolpica F1](https://api.jolpi.ca/ergast/f1/2026/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Официальный зачёт F1](https://www.formula1.com/en/results/2026/drivers) · [Статус обновления](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
+<sub>Source: [Jolpica F1](https://api.jolpi.ca/ergast/f1/2026/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Official F1 standings](https://www.formula1.com/en/results/2026/drivers) · [Update status](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
 
 <!-- F1-TRACKER:END -->
 
@@ -91,4 +91,5 @@ Original AI-generated fan artwork, based on the 2026 [Max Verstappen portrait](h
 [Racing number 3 for 2026 — Formula 1](https://www.formula1.com/en/latest/article/max-verstappen-confirms-he-will-use-car-number-3-for-2026-season.6qvN2SQwcyGYnMWhGdDpNS) · [Driver profile and championship record — Formula 1](https://www.formula1.com/en/drivers/max-verstappen)
 
 </details>
+
 

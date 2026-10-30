@@ -60,9 +60,9 @@ class TrackerTests(unittest.TestCase):
         readme = (self.root / "README.md").read_text(encoding="utf-8")
         self.assertTrue(readme.startswith("keep this header\n"))
         self.assertTrue(readme.endswith("\nkeep this artwork credit\n"))
-        self.assertIn("30 очков до лидера", readme)
+        self.assertIn("30 points behind the leader", readme)
         self.assertIn("**Max Verstappen**", readme)
-        self.assertIn("+15 очков в гонке", readme)
+        self.assertIn("+15 race points", readme)
         for filename in ("f1-max.svg", "f1-max-mobile.svg"):
             ElementTree.parse(self.root / "assets" / filename)
 
@@ -78,8 +78,8 @@ class TrackerTests(unittest.TestCase):
         rows[3]["points"] = "40.5"
         self.update()
         readme = (self.root / "README.md").read_text(encoding="utf-8")
-        self.assertIn("40.5 очков", readme)
-        self.assertIn("29.5 очков до лидера", readme)
+        self.assertIn("40.5 points", readme)
+        self.assertIn("29.5 points behind the leader", readme)
 
     def test_missing_or_partial_source_preserves_last_good_snapshot(self):
         self.update()
@@ -155,3 +155,4 @@ class TrackerTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
