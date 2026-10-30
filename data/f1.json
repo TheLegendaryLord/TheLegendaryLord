@@ -5,6 +5,8 @@
     {
       "id": "antonelli",
       "name": "Andrea Kimi Antonelli",
+      "surname": "Antonelli",
+      "code": "ANT",
       "position": 1,
       "points": "365",
       "wins": 9,
@@ -14,6 +16,8 @@
     {
       "id": "russell",
       "name": "George Russell",
+      "surname": "Russell",
+      "code": "RUS",
       "position": 2,
       "points": "242",
       "wins": 3,
@@ -23,6 +27,8 @@
     {
       "id": "hamilton",
       "name": "Lewis Hamilton",
+      "surname": "Hamilton",
+      "code": "HAM",
       "position": 3,
       "points": "241",
       "wins": 1,
@@ -32,6 +38,8 @@
     {
       "id": "max_verstappen",
       "name": "Max Verstappen",
+      "surname": "Verstappen",
+      "code": "VER",
       "position": 4,
       "points": "236",
       "wins": 2,
@@ -41,6 +49,8 @@
     {
       "id": "leclerc",
       "name": "Charles Leclerc",
+      "surname": "Leclerc",
+      "code": "LEC",
       "position": 5,
       "points": "233",
       "wins": 1,
@@ -50,6 +60,8 @@
     {
       "id": "norris",
       "name": "Lando Norris",
+      "surname": "Norris",
+      "code": "NOR",
       "position": 6,
       "points": "211",
       "wins": 2,
@@ -59,6 +71,8 @@
     {
       "id": "piastri",
       "name": "Oscar Piastri",
+      "surname": "Piastri",
+      "code": "PIA",
       "position": 7,
       "points": "144",
       "wins": 0,
@@ -68,6 +82,8 @@
     {
       "id": "hadjar",
       "name": "Isack Hadjar",
+      "surname": "Hadjar",
+      "code": "HAD",
       "position": 8,
       "points": "105",
       "wins": 0,
@@ -77,6 +93,8 @@
     {
       "id": "lawson",
       "name": "Liam Lawson",
+      "surname": "Lawson",
+      "code": "LAW",
       "position": 9,
       "points": "77",
       "wins": 0,
@@ -86,6 +104,8 @@
     {
       "id": "gasly",
       "name": "Pierre Gasly",
+      "surname": "Gasly",
+      "code": "GAS",
       "position": 10,
       "points": "42",
       "wins": 0,
@@ -95,6 +115,8 @@
     {
       "id": "arvid_lindblad",
       "name": "Arvid Lindblad",
+      "surname": "Lindblad",
+      "code": "LIN",
       "position": 11,
       "points": "38",
       "wins": 0,
@@ -104,6 +126,8 @@
     {
       "id": "colapinto",
       "name": "Franco Colapinto",
+      "surname": "Colapinto",
+      "code": "COL",
       "position": 12,
       "points": "27",
       "wins": 0,
@@ -113,6 +137,8 @@
     {
       "id": "bearman",
       "name": "Oliver Bearman",
+      "surname": "Bearman",
+      "code": "BEA",
       "position": 13,
       "points": "23",
       "wins": 0,
@@ -122,6 +148,8 @@
     {
       "id": "hulkenberg",
       "name": "Nico Hülkenberg",
+      "surname": "Hülkenberg",
+      "code": "HUL",
       "position": 14,
       "points": "13",
       "wins": 0,
@@ -131,6 +159,8 @@
     {
       "id": "bortoleto",
       "name": "Gabriel Bortoleto",
+      "surname": "Bortoleto",
+      "code": "BOR",
       "position": 15,
       "points": "10",
       "wins": 0,
@@ -140,6 +170,8 @@
     {
       "id": "ocon",
       "name": "Esteban Ocon",
+      "surname": "Ocon",
+      "code": "OCO",
       "position": 16,
       "points": "7",
       "wins": 0,
@@ -149,6 +181,8 @@
     {
       "id": "alonso",
       "name": "Fernando Alonso",
+      "surname": "Alonso",
+      "code": "ALO",
       "position": 17,
       "points": "7",
       "wins": 0,
@@ -158,6 +192,8 @@
     {
       "id": "sainz",
       "name": "Carlos Sainz",
+      "surname": "Sainz",
+      "code": "SAI",
       "position": 18,
       "points": "7",
       "wins": 0,
@@ -167,6 +203,8 @@
     {
       "id": "albon",
       "name": "Alexander Albon",
+      "surname": "Albon",
+      "code": "ALB",
       "position": 19,
       "points": "5",
       "wins": 0,
@@ -176,6 +214,8 @@
     {
       "id": "tsunoda",
       "name": "Yuki Tsunoda",
+      "surname": "Tsunoda",
+      "code": "TSU",
       "position": 20,
       "points": "1",
       "wins": 0,
@@ -185,6 +225,8 @@
     {
       "id": "stroll",
       "name": "Lance Stroll",
+      "surname": "Stroll",
+      "code": "STR",
       "position": 21,
       "points": "0",
       "wins": 0,
@@ -194,6 +236,8 @@
     {
       "id": "bottas",
       "name": "Valtteri Bottas",
+      "surname": "Bottas",
+      "code": "BOT",
       "position": 22,
       "points": "0",
       "wins": 0,
@@ -203,6 +247,8 @@
     {
       "id": "perez",
       "name": "Sergio Pérez",
+      "surname": "Pérez",
+      "code": "PER",
       "position": 23,
       "points": "0",
       "wins": 0,
@@ -213,9 +259,65 @@
   "race": {
     "name": "United States Grand Prix",
     "date": "2026-10-25",
+    "circuit": "Circuit of the Americas",
+    "venue": "Austin",
+    "grid": 2,
+    "laps": 56,
     "finish": "P3",
     "points": "15",
     "status": "Finished"
   },
-  "updated_at": "2026-10-30 18:07 UTC"
+  "season_stats": {
+    "starts": 18,
+    "podiums": 10,
+    "gp_points": "216"
+  },
+  "recent_results": [
+    {
+      "round": 14,
+      "name": "Spanish Grand Prix",
+      "date": "2026-09-13",
+      "venue": "Madrid",
+      "position": 2,
+      "finish": "P2",
+      "points": "18"
+    },
+    {
+      "round": 15,
+      "name": "Azerbaijan Grand Prix",
+      "date": "2026-09-26",
+      "venue": "Baku",
+      "position": 2,
+      "finish": "P2",
+      "points": "18"
+    },
+    {
+      "round": 16,
+      "name": "Bahrain Grand Prix in Malaysia",
+      "date": "2026-10-04",
+      "venue": "Kuala Lumpur",
+      "position": 1,
+      "finish": "P1",
+      "points": "25"
+    },
+    {
+      "round": 17,
+      "name": "Singapore Grand Prix",
+      "date": "2026-10-11",
+      "venue": "Marina Bay",
+      "position": 1,
+      "finish": "P1",
+      "points": "25"
+    },
+    {
+      "round": 18,
+      "name": "United States Grand Prix",
+      "date": "2026-10-25",
+      "venue": "Austin",
+      "position": 3,
+      "finish": "P3",
+      "points": "15"
+    }
+  ],
+  "updated_at": "2026-10-30 18:27 UTC"
 }

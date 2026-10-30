@@ -33,6 +33,24 @@ def documents(count=7, max_index=3):
     return standings, race
 
 
+def season_document(race):
+    last_race = race["MRData"]["RaceTable"]["Races"][0]
+    last_result = next(row for row in last_race["Results"] if row["Driver"]["driverId"] == f1.DRIVER)
+    positions = [1, 2, 3, 4, 1, 2, 3, 4, 2, 3, 5, 6, 8, 9, 10, 11, 12]
+    scoring = {1: 25, 2: 18, 3: 15, 4: 12, 5: 10, 6: 8, 7: 6, 8: 4, 9: 2, 10: 1}
+    races = []
+    for round_number, position in enumerate(positions, 1):
+        result = copy.deepcopy(last_result)
+        result.update(position=str(position), points=str(scoring.get(position, 0)))
+        races.append({"season": "2026", "round": str(round_number), "raceName": f"Test GP {round_number}",
+                      "date": f"2026-09-{round_number:02}",
+                      "Circuit": {"Location": {"locality": f"Venue {round_number}"}}, "Results": [result]})
+    final = copy.deepcopy(last_race)
+    final["Results"] = [copy.deepcopy(last_result)]
+    races.append(final)
+    return {"MRData": {"series": "f1", "offset": "0", "total": "18", "RaceTable": {"Races": races}}}
+
+
 class TrackerTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -41,10 +59,13 @@ class TrackerTests(unittest.TestCase):
         self.original = "keep this header\n" + f1.START + "\nold tracker\n" + f1.END + "\nkeep this artwork credit\n"
         (self.root / "README.md").write_text(self.original, encoding="utf-8")
         self.standings, self.race = documents()
+        self.season = season_document(self.race)
 
     def fetch(self, url):
         if "driverstandings" in url:
             return copy.deepcopy(self.standings)
+        if "/drivers/max_verstappen/results.json" in url:
+            return copy.deepcopy(self.season)
         self.assertIn("/2026/18/results.json", url)
         return copy.deepcopy(self.race)
 
@@ -152,7 +173,44 @@ class TrackerTests(unittest.TestCase):
             after = f1.render_block(state)
         self.assertNotEqual(before, after)
 
+    def test_season_summary_and_form_use_gp_results(self):
+        self.update()
+        state = json.loads((self.root / "data/f1.json").read_text(encoding="utf-8"))
+        self.assertEqual(state["season_stats"], {"starts": 18, "podiums": 8, "gp_points": "213"})
+        self.assertEqual([r["round"] for r in state["recent_results"]], [14, 15, 16, 17, 18])
+        self.assertEqual([r["finish"] for r in state["recent_results"]], ["P9", "P10", "P11", "P12", "P4"])
+
+    def test_partial_season_history_preserves_published_files(self):
+        self.update()
+        before = {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob("*") if p.is_file()}
+        self.season["MRData"]["total"] = "19"
+        with self.assertRaisesRegex(ValueError, "Incomplete season"):
+            self.update()
+        self.assertEqual(before, {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob("*") if p.is_file()})
+
+    def test_history_cannot_disagree_with_last_race(self):
+        self.season["MRData"]["RaceTable"]["Races"][-1]["Results"][0]["points"] = "18"
+        with self.assertRaisesRegex(ValueError, "last GP disagree"):
+            self.update()
+        self.assertEqual((self.root / "README.md").read_text(encoding="utf-8"), self.original)
+
+    def test_history_does_not_include_races_ahead_of_standings(self):
+        self.update()
+        future = copy.deepcopy(self.season["MRData"]["RaceTable"]["Races"][-1])
+        future["round"] = "19"
+        future["Results"][0].update(position="1", points="25")
+        self.season["MRData"]["RaceTable"]["Races"].append(future)
+        self.season["MRData"]["total"] = "19"
+        self.assertEqual(self.update(), [])
+
+    def test_context_handles_championship_leader_and_last_place(self):
+        state = f1.parse_standings(documents(7, 0)[0])
+        self.assertEqual([row["position"] for row in f1.championship_rows(state)], [1, 2])
+        state = f1.parse_standings(documents(7, 6)[0])
+        self.assertEqual([row["position"] for row in f1.championship_rows(state)], [1, 6, 7])
+
 
 if __name__ == "__main__":
     unittest.main()
+
 

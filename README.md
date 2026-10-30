@@ -8,11 +8,11 @@
 
 <!-- F1-TRACKER:START -->
 
-## Max / Championship tracker
+## Max Verstappen / Season report
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=f0738a3a077c" />
-  <img src="./assets/f1-max.svg?v=f0738a3a077c" width="100%" alt="Max Verstappen: 236 points, P4, 129 points behind the leader" />
+  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=8119d1999185" />
+  <img src="./assets/f1-max.svg?v=8119d1999185" width="100%" alt="Max Verstappen: 236 points, P4, 129 points behind the leader" />
 </picture>
 
 **Last Grand Prix:** United States Grand Prix · 2026-10-25 · **P3** · **+15 race points**.
@@ -58,7 +58,7 @@
 
 </details>
 
-<sub>Standings after Round 18. Last data change: 2026-10-30 18:07 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
+<sub>Standings after Round 18. Last data change: 2026-10-30 18:27 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
 
 <sub>Source: [Jolpica F1](https://api.jolpi.ca/ergast/f1/2026/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Official F1 standings](https://www.formula1.com/en/results/2026/drivers) · [Update status](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
 
@@ -91,5 +91,6 @@ Original AI-generated fan artwork, based on the 2026 [Max Verstappen portrait](h
 [Racing number 3 for 2026 — Formula 1](https://www.formula1.com/en/latest/article/max-verstappen-confirms-he-will-use-car-number-3-for-2026-season.6qvN2SQwcyGYnMWhGdDpNS) · [Driver profile and championship record — Formula 1](https://www.formula1.com/en/drivers/max-verstappen)
 
 </details>
+
 
 
