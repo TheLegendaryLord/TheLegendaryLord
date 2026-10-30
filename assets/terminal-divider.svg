@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="32" viewBox="0 0 1120 32" fill="none" role="img" aria-label="Terminal separator">
-  <defs><linearGradient id="line"><stop stop-color="#45E6E0"/><stop offset=".5" stop-color="#6C8FFF"/><stop offset="1" stop-color="#E67BCC"/></linearGradient></defs>
-  <path d="M0 16H465L478 5H515M605 5H642L655 16H1120" stroke="url(#line)" stroke-opacity=".65"/>
-  <path d="m545 5-11 11 11 11m30-22 11 11-11 11m-10-23-10 24" stroke="#9A94D9" stroke-width="2"/>
-</svg>
