@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "round": 18,
+  "round": 19,
   "drivers": [
     {
       "id": "antonelli",
@@ -8,21 +8,21 @@
       "surname": "Antonelli",
       "code": "ANT",
       "position": 1,
-      "points": "365",
+      "points": "380",
       "wins": 9,
       "number": "12",
       "team": "Mercedes"
     },
     {
-      "id": "russell",
-      "name": "George Russell",
-      "surname": "Russell",
-      "code": "RUS",
+      "id": "max_verstappen",
+      "name": "Max Verstappen",
+      "surname": "Verstappen",
+      "code": "VER",
       "position": 2,
-      "points": "242",
+      "points": "261",
       "wins": 3,
-      "number": "63",
-      "team": "Mercedes"
+      "number": "3",
+      "team": "Red Bull"
     },
     {
       "id": "hamilton",
@@ -30,21 +30,21 @@
       "surname": "Hamilton",
       "code": "HAM",
       "position": 3,
-      "points": "241",
+      "points": "259",
       "wins": 1,
       "number": "44",
       "team": "Ferrari"
     },
     {
-      "id": "max_verstappen",
-      "name": "Max Verstappen",
-      "surname": "Verstappen",
-      "code": "VER",
+      "id": "russell",
+      "name": "George Russell",
+      "surname": "Russell",
+      "code": "RUS",
       "position": 4,
-      "points": "236",
-      "wins": 2,
-      "number": "3",
-      "team": "Red Bull"
+      "points": "250",
+      "wins": 3,
+      "number": "63",
+      "team": "Mercedes"
     },
     {
       "id": "leclerc",
@@ -52,7 +52,7 @@
       "surname": "Leclerc",
       "code": "LEC",
       "position": 5,
-      "points": "233",
+      "points": "245",
       "wins": 1,
       "number": "16",
       "team": "Ferrari"
@@ -63,7 +63,7 @@
       "surname": "Norris",
       "code": "NOR",
       "position": 6,
-      "points": "211",
+      "points": "221",
       "wins": 2,
       "number": "1",
       "team": "McLaren"
@@ -74,7 +74,7 @@
       "surname": "Piastri",
       "code": "PIA",
       "position": 7,
-      "points": "144",
+      "points": "150",
       "wins": 0,
       "number": "81",
       "team": "McLaren"
@@ -96,7 +96,7 @@
       "surname": "Lawson",
       "code": "LAW",
       "position": 9,
-      "points": "77",
+      "points": "79",
       "wins": 0,
       "number": "30",
       "team": "RB F1 Team / Red Bull"
@@ -107,7 +107,7 @@
       "surname": "Gasly",
       "code": "GAS",
       "position": 10,
-      "points": "42",
+      "points": "43",
       "wins": 0,
       "number": "10",
       "team": "Alpine F1 Team"
@@ -129,7 +129,7 @@
       "surname": "Colapinto",
       "code": "COL",
       "position": 12,
-      "points": "27",
+      "points": "31",
       "wins": 0,
       "number": "43",
       "team": "Alpine F1 Team"
@@ -245,11 +245,22 @@
       "team": "Cadillac F1 Team"
     },
     {
+      "id": "ryo_hirakawa",
+      "name": "Ryo Hirakawa",
+      "surname": "Hirakawa",
+      "code": "HIR",
+      "position": 23,
+      "points": "0",
+      "wins": 0,
+      "number": "50",
+      "team": "Haas F1 Team"
+    },
+    {
       "id": "perez",
       "name": "Sergio Pérez",
       "surname": "Pérez",
       "code": "PER",
-      "position": 23,
+      "position": 24,
       "points": "0",
       "wins": 0,
       "number": "11",
@@ -257,31 +268,22 @@
     }
   ],
   "race": {
-    "name": "United States Grand Prix",
-    "date": "2026-10-25",
-    "circuit": "Circuit of the Americas",
-    "venue": "Austin",
-    "grid": 2,
-    "laps": 56,
-    "finish": "P3",
-    "points": "15",
+    "name": "Mexico City Grand Prix",
+    "date": "2026-11-01",
+    "circuit": "Autódromo Hermanos Rodríguez",
+    "venue": "Mexico City",
+    "grid": 5,
+    "laps": 71,
+    "finish": "P1",
+    "points": "25",
     "status": "Finished"
   },
   "season_stats": {
-    "starts": 18,
-    "podiums": 10,
-    "gp_points": "216"
+    "starts": 19,
+    "podiums": 11,
+    "gp_points": "241"
   },
   "recent_results": [
-    {
-      "round": 14,
-      "name": "Spanish Grand Prix",
-      "date": "2026-09-13",
-      "venue": "Madrid",
-      "position": 2,
-      "finish": "P2",
-      "points": "18"
-    },
     {
       "round": 15,
       "name": "Azerbaijan Grand Prix",
@@ -317,7 +319,16 @@
       "position": 3,
       "finish": "P3",
       "points": "15"
+    },
+    {
+      "round": 19,
+      "name": "Mexico City Grand Prix",
+      "date": "2026-11-01",
+      "venue": "Mexico City",
+      "position": 1,
+      "finish": "P1",
+      "points": "25"
     }
   ],
-  "updated_at": "2026-10-30 18:27 UTC"
+  "updated_at": "2026-11-02 02:31 UTC"
 }
