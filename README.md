@@ -38,28 +38,28 @@
 | 4 | George Russell | Mercedes | 250 |
 | 5 | Charles Leclerc | Ferrari | 245 |
 | 6 | Lando Norris | McLaren | 221 |
-| 7 | Oscar Piastri | McLaren | 150 |
-| 8 | Isack Hadjar | Red Bull | 105 |
-| 9 | Liam Lawson | RB F1 Team / Red Bull | 79 |
-| 10 | Pierre Gasly | Alpine F1 Team | 43 |
+| 7 | Oscar Piastri | McLaren | 144 |
+| 8 | Isack Hadjar | Red Bull | 107 |
+| 9 | Liam Lawson | RB F1 Team / Red Bull | 83 |
+| 10 | Pierre Gasly | Alpine F1 Team | 42 |
 | 11 | Arvid Lindblad | RB F1 Team | 38 |
-| 12 | Franco Colapinto | Alpine F1 Team | 31 |
+| 12 | Franco Colapinto | Alpine F1 Team | 27 |
 | 13 | Oliver Bearman | Haas F1 Team | 23 |
-| 14 | Nico Hülkenberg | Audi | 13 |
-| 15 | Gabriel Bortoleto | Audi | 10 |
+| 14 | Gabriel Bortoleto | Audi | 14 |
+| 15 | Nico Hülkenberg | Audi | 13 |
 | 16 | Esteban Ocon | Haas F1 Team | 7 |
 | 17 | Fernando Alonso | Aston Martin | 7 |
 | 18 | Carlos Sainz | Williams | 7 |
 | 19 | Alexander Albon | Williams | 5 |
 | 20 | Yuki Tsunoda | RB F1 Team | 1 |
-| 21 | Lance Stroll | Aston Martin | 0 |
-| 22 | Valtteri Bottas | Cadillac F1 Team | 0 |
-| 23 | Ryo Hirakawa | Haas F1 Team | 0 |
+| 21 | Ryo Hirakawa | Haas F1 Team | 1 |
+| 22 | Lance Stroll | Aston Martin | 0 |
+| 23 | Valtteri Bottas | Cadillac F1 Team | 0 |
 | 24 | Sergio Pérez | Cadillac F1 Team | 0 |
 
 </details>
 
-<sub>Standings after Round 19. Last data change: 2026-11-02 02:31 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
+<sub>Standings after Round 19. Last data change: 2026-11-02 20:22 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
 
 <sub>Source: [Jolpica F1](https://api.jolpi.ca/ergast/f1/2026/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Official F1 standings](https://www.formula1.com/en/results/2026/drivers) · [Update status](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
 

@@ -74,7 +74,7 @@
       "surname": "Piastri",
       "code": "PIA",
       "position": 7,
-      "points": "150",
+      "points": "144",
       "wins": 0,
       "number": "81",
       "team": "McLaren"
@@ -85,7 +85,7 @@
       "surname": "Hadjar",
       "code": "HAD",
       "position": 8,
-      "points": "105",
+      "points": "107",
       "wins": 0,
       "number": "6",
       "team": "Red Bull"
@@ -96,7 +96,7 @@
       "surname": "Lawson",
       "code": "LAW",
       "position": 9,
-      "points": "79",
+      "points": "83",
       "wins": 0,
       "number": "30",
       "team": "RB F1 Team / Red Bull"
@@ -107,7 +107,7 @@
       "surname": "Gasly",
       "code": "GAS",
       "position": 10,
-      "points": "43",
+      "points": "42",
       "wins": 0,
       "number": "10",
       "team": "Alpine F1 Team"
@@ -129,7 +129,7 @@
       "surname": "Colapinto",
       "code": "COL",
       "position": 12,
-      "points": "31",
+      "points": "27",
       "wins": 0,
       "number": "43",
       "team": "Alpine F1 Team"
@@ -146,25 +146,25 @@
       "team": "Haas F1 Team"
     },
     {
-      "id": "hulkenberg",
-      "name": "Nico Hülkenberg",
-      "surname": "Hülkenberg",
-      "code": "HUL",
-      "position": 14,
-      "points": "13",
-      "wins": 0,
-      "number": "27",
-      "team": "Audi"
-    },
-    {
       "id": "bortoleto",
       "name": "Gabriel Bortoleto",
       "surname": "Bortoleto",
       "code": "BOR",
-      "position": 15,
-      "points": "10",
+      "position": 14,
+      "points": "14",
       "wins": 0,
       "number": "5",
+      "team": "Audi"
+    },
+    {
+      "id": "hulkenberg",
+      "name": "Nico Hülkenberg",
+      "surname": "Hülkenberg",
+      "code": "HUL",
+      "position": 15,
+      "points": "13",
+      "wins": 0,
+      "number": "27",
       "team": "Audi"
     },
     {
@@ -223,11 +223,22 @@
       "team": "RB F1 Team"
     },
     {
+      "id": "ryo_hirakawa",
+      "name": "Ryo Hirakawa",
+      "surname": "Hirakawa",
+      "code": "HIR",
+      "position": 21,
+      "points": "1",
+      "wins": 0,
+      "number": "50",
+      "team": "Haas F1 Team"
+    },
+    {
       "id": "stroll",
       "name": "Lance Stroll",
       "surname": "Stroll",
       "code": "STR",
-      "position": 21,
+      "position": 22,
       "points": "0",
       "wins": 0,
       "number": "18",
@@ -238,22 +249,11 @@
       "name": "Valtteri Bottas",
       "surname": "Bottas",
       "code": "BOT",
-      "position": 22,
+      "position": 23,
       "points": "0",
       "wins": 0,
       "number": "77",
       "team": "Cadillac F1 Team"
-    },
-    {
-      "id": "ryo_hirakawa",
-      "name": "Ryo Hirakawa",
-      "surname": "Hirakawa",
-      "code": "HIR",
-      "position": 23,
-      "points": "0",
-      "wins": 0,
-      "number": "50",
-      "team": "Haas F1 Team"
     },
     {
       "id": "perez",
@@ -330,5 +330,5 @@
       "points": "25"
     }
   ],
-  "updated_at": "2026-11-02 02:31 UTC"
+  "updated_at": "2026-11-02 20:22 UTC"
 }
