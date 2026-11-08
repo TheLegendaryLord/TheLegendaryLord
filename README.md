@@ -11,42 +11,42 @@
 ## Max Verstappen / Season report
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=04286f181e5c" />
-  <img src="./assets/f1-max.svg?v=04286f181e5c" width="100%" alt="Max Verstappen: 261 points, P2, 119 points behind the leader" />
+  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=02ce90314276" />
+  <img src="./assets/f1-max.svg?v=02ce90314276" width="100%" alt="Max Verstappen: 279 points, P2, 111 points behind the leader" />
 </picture>
 
-**Last Grand Prix:** Mexico City Grand Prix · 2026-11-01 · **P1** · **+25 race points**.
+**Last Grand Prix:** Brazilian Grand Prix · 2026-11-08 · **P2** · **+18 race points**.
 
 ### Drivers' standings · 2026
 
 | # | Driver | Team | Points |
 | --: | :-- | :-- | --: |
-| 1 | Andrea Kimi Antonelli | Mercedes | 380 |
-| **2** | **Max Verstappen** | **Red Bull** | **261** |
-| 3 | Lewis Hamilton | Ferrari | 259 |
-| 4 | George Russell | Mercedes | 250 |
-| 5 | Charles Leclerc | Ferrari | 245 |
+| 1 | Andrea Kimi Antonelli | Mercedes | 390 |
+| **2** | **Max Verstappen** | **Red Bull** | **279** |
+| 3 | George Russell | Mercedes | 262 |
+| 4 | Lewis Hamilton | Ferrari | 261 |
+| 5 | Charles Leclerc | Ferrari | 251 |
 
 <details>
-<summary>All drivers (24)</summary>
+<summary>All drivers (25)</summary>
 
 | # | Driver | Team | Points |
 | --: | :-- | :-- | --: |
-| 1 | Andrea Kimi Antonelli | Mercedes | 380 |
-| **2** | **Max Verstappen** | **Red Bull** | **261** |
-| 3 | Lewis Hamilton | Ferrari | 259 |
-| 4 | George Russell | Mercedes | 250 |
-| 5 | Charles Leclerc | Ferrari | 245 |
-| 6 | Lando Norris | McLaren | 221 |
-| 7 | Oscar Piastri | McLaren | 144 |
-| 8 | Isack Hadjar | Red Bull | 107 |
-| 9 | Liam Lawson | RB F1 Team / Red Bull | 83 |
+| 1 | Andrea Kimi Antonelli | Mercedes | 390 |
+| **2** | **Max Verstappen** | **Red Bull** | **279** |
+| 3 | George Russell | Mercedes | 262 |
+| 4 | Lewis Hamilton | Ferrari | 261 |
+| 5 | Charles Leclerc | Ferrari | 251 |
+| 6 | Lando Norris | McLaren | 246 |
+| 7 | Oscar Piastri | McLaren | 152 |
+| 8 | Isack Hadjar | Red Bull | 122 |
+| 9 | Liam Lawson | RB F1 Team / Red Bull | 87 |
 | 10 | Pierre Gasly | Alpine F1 Team | 42 |
 | 11 | Arvid Lindblad | RB F1 Team | 38 |
 | 12 | Franco Colapinto | Alpine F1 Team | 27 |
 | 13 | Oliver Bearman | Haas F1 Team | 23 |
 | 14 | Gabriel Bortoleto | Audi | 14 |
-| 15 | Nico Hülkenberg | Audi | 13 |
+| 15 | Nico Hülkenberg | Audi | 14 |
 | 16 | Esteban Ocon | Haas F1 Team | 7 |
 | 17 | Fernando Alonso | Aston Martin | 7 |
 | 18 | Carlos Sainz | Williams | 7 |
@@ -56,10 +56,11 @@
 | 22 | Lance Stroll | Aston Martin | 0 |
 | 23 | Valtteri Bottas | Cadillac F1 Team | 0 |
 | 24 | Sergio Pérez | Cadillac F1 Team | 0 |
+| 25 | Rafael Camara | Haas F1 Team | 0 |
 
 </details>
 
-<sub>Standings after Round 19. Last data change: 2026-11-02 20:22 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
+<sub>Standings after Round 20. Last data change: 2026-11-08 20:47 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
 
 <sub>Source: [Jolpica F1](https://api.jolpi.ca/ergast/f1/2026/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Official F1 standings](https://www.formula1.com/en/results/2026/drivers) · [Update status](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
 

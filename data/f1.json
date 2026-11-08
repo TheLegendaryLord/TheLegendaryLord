@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "round": 19,
+  "round": 20,
   "drivers": [
     {
       "id": "antonelli",
@@ -8,7 +8,7 @@
       "surname": "Antonelli",
       "code": "ANT",
       "position": 1,
-      "points": "380",
+      "points": "390",
       "wins": 9,
       "number": "12",
       "team": "Mercedes"
@@ -19,32 +19,32 @@
       "surname": "Verstappen",
       "code": "VER",
       "position": 2,
-      "points": "261",
+      "points": "279",
       "wins": 3,
       "number": "3",
       "team": "Red Bull"
-    },
-    {
-      "id": "hamilton",
-      "name": "Lewis Hamilton",
-      "surname": "Hamilton",
-      "code": "HAM",
-      "position": 3,
-      "points": "259",
-      "wins": 1,
-      "number": "44",
-      "team": "Ferrari"
     },
     {
       "id": "russell",
       "name": "George Russell",
       "surname": "Russell",
       "code": "RUS",
-      "position": 4,
-      "points": "250",
+      "position": 3,
+      "points": "262",
       "wins": 3,
       "number": "63",
       "team": "Mercedes"
+    },
+    {
+      "id": "hamilton",
+      "name": "Lewis Hamilton",
+      "surname": "Hamilton",
+      "code": "HAM",
+      "position": 4,
+      "points": "261",
+      "wins": 1,
+      "number": "44",
+      "team": "Ferrari"
     },
     {
       "id": "leclerc",
@@ -52,7 +52,7 @@
       "surname": "Leclerc",
       "code": "LEC",
       "position": 5,
-      "points": "245",
+      "points": "251",
       "wins": 1,
       "number": "16",
       "team": "Ferrari"
@@ -63,8 +63,8 @@
       "surname": "Norris",
       "code": "NOR",
       "position": 6,
-      "points": "221",
-      "wins": 2,
+      "points": "246",
+      "wins": 3,
       "number": "1",
       "team": "McLaren"
     },
@@ -74,7 +74,7 @@
       "surname": "Piastri",
       "code": "PIA",
       "position": 7,
-      "points": "144",
+      "points": "152",
       "wins": 0,
       "number": "81",
       "team": "McLaren"
@@ -85,7 +85,7 @@
       "surname": "Hadjar",
       "code": "HAD",
       "position": 8,
-      "points": "107",
+      "points": "122",
       "wins": 0,
       "number": "6",
       "team": "Red Bull"
@@ -96,7 +96,7 @@
       "surname": "Lawson",
       "code": "LAW",
       "position": 9,
-      "points": "83",
+      "points": "87",
       "wins": 0,
       "number": "30",
       "team": "RB F1 Team / Red Bull"
@@ -162,7 +162,7 @@
       "surname": "Hülkenberg",
       "code": "HUL",
       "position": 15,
-      "points": "13",
+      "points": "14",
       "wins": 0,
       "number": "27",
       "team": "Audi"
@@ -265,34 +265,36 @@
       "wins": 0,
       "number": "11",
       "team": "Cadillac F1 Team"
+    },
+    {
+      "id": "rafael_camara",
+      "name": "Rafael Camara",
+      "surname": "Camara",
+      "code": "CAM",
+      "position": 25,
+      "points": "0",
+      "wins": 0,
+      "number": "",
+      "team": "Haas F1 Team"
     }
   ],
   "race": {
-    "name": "Mexico City Grand Prix",
-    "date": "2026-11-01",
-    "circuit": "Autódromo Hermanos Rodríguez",
-    "venue": "Mexico City",
-    "grid": 5,
+    "name": "Brazilian Grand Prix",
+    "date": "2026-11-08",
+    "circuit": "Autódromo José Carlos Pace",
+    "venue": "São Paulo",
+    "grid": null,
     "laps": 71,
-    "finish": "P1",
-    "points": "25",
+    "finish": "P2",
+    "points": "18",
     "status": "Finished"
   },
   "season_stats": {
-    "starts": 19,
-    "podiums": 11,
-    "gp_points": "241"
+    "starts": 20,
+    "podiums": 12,
+    "gp_points": "259"
   },
   "recent_results": [
-    {
-      "round": 15,
-      "name": "Azerbaijan Grand Prix",
-      "date": "2026-09-26",
-      "venue": "Baku",
-      "position": 2,
-      "finish": "P2",
-      "points": "18"
-    },
     {
       "round": 16,
       "name": "Bahrain Grand Prix in Malaysia",
@@ -328,7 +330,16 @@
       "position": 1,
       "finish": "P1",
       "points": "25"
+    },
+    {
+      "round": 20,
+      "name": "Brazilian Grand Prix",
+      "date": "2026-11-08",
+      "venue": "São Paulo",
+      "position": 2,
+      "finish": "P2",
+      "points": "18"
     }
   ],
-  "updated_at": "2026-11-02 20:22 UTC"
+  "updated_at": "2026-11-08 20:47 UTC"
 }

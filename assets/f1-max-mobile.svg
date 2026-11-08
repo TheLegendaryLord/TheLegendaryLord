@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1080" viewBox="0 0 640 1080" role="img" aria-labelledby="title desc">
 <title id="title">Max Verstappen — season classification and race report</title>
-<desc id="desc">Max Verstappen: 261 points, P2, 119 points behind the championship leader. 3 GP wins, 11 podiums, 19 GP starts. Last Grand Prix: Mexico City Grand Prix, P1, 25 race points.</desc>
+<desc id="desc">Max Verstappen: 279 points, P2, 111 points behind the championship leader. 3 GP wins, 12 podiums, 20 GP starts. Last Grand Prix: Brazilian Grand Prix, P2, 18 race points.</desc>
 <rect width="640" height="1080" fill="#101319"/>
 <path d="M0 2H610L640 32" fill="none" stroke="#E82137" stroke-width="4"/>
 <g font-family="Arial,Helvetica,sans-serif">
 <text x="32" y="34" fill="#9AA3B0" font-size="20" font-weight="700" text-anchor="start" letter-spacing="1.6">DRIVER REPORT</text>
-<text x="608" y="34" fill="#9AA3B0" font-size="20" font-weight="700" text-anchor="end">2026 / ROUND 19</text>
+<text x="608" y="34" fill="#9AA3B0" font-size="20" font-weight="700" text-anchor="end">2026 / ROUND 20</text>
 <rect x="32" y="60" width="82" height="84" fill="#F0F1F3"/>
 <text x="73" y="124" fill="#101319" font-size="66" font-weight="800" text-anchor="middle">3</text>
 <rect x="126" y="60" width="5" height="84" fill="#3671C6"/>
 <text x="151" y="101" fill="#F0F1F3" font-size="35" font-weight="700" text-anchor="start" letter-spacing="-0.8">MAX VERSTAPPEN</text>
 <text x="152" y="135" fill="#9AA3B0" font-size="22" font-weight="600" text-anchor="start">RED BULL RACING</text>
 <path d="M32 166H608" stroke="#353B45"/>
-<text x="38" y="267" fill="#F0F1F3" font-size="100" font-weight="800" text-anchor="start" letter-spacing="-3">261</text>
+<text x="38" y="267" fill="#F0F1F3" font-size="100" font-weight="800" text-anchor="start" letter-spacing="-3">279</text>
 <text x="40" y="300" fill="#9AA3B0" font-size="22" font-weight="600" text-anchor="start">CHAMPIONSHIP POINTS</text>
 <text x="372" y="267" fill="#F0F1F3" font-size="100" font-weight="800" text-anchor="start" letter-spacing="-3">P2</text>
 <text x="374" y="300" fill="#9AA3B0" font-size="22" font-weight="600" text-anchor="start">WDC POSITION</text>
 <text x="38" y="358" fill="#F0F1F3" font-size="38" font-weight="700" text-anchor="start">3</text>
 <text x="38" y="390" fill="#9AA3B0" font-size="21" font-weight="600" text-anchor="start">GP WINS</text>
-<text x="246" y="358" fill="#F0F1F3" font-size="38" font-weight="700" text-anchor="start">11</text>
+<text x="246" y="358" fill="#F0F1F3" font-size="38" font-weight="700" text-anchor="start">12</text>
 <text x="246" y="390" fill="#9AA3B0" font-size="21" font-weight="600" text-anchor="start">PODIUMS</text>
-<text x="454" y="358" fill="#F0F1F3" font-size="38" font-weight="700" text-anchor="start">19</text>
+<text x="454" y="358" fill="#F0F1F3" font-size="38" font-weight="700" text-anchor="start">20</text>
 <text x="454" y="390" fill="#9AA3B0" font-size="21" font-weight="600" text-anchor="start">GP STARTS</text>
 <path d="M32 418H608" stroke="#353B45"/>
 <text x="38" y="443" fill="#9AA3B0" font-size="22" font-weight="700" text-anchor="start" letter-spacing="1.1">CHAMPIONSHIP CONTEXT</text>
@@ -31,53 +31,53 @@
 <text x="38" y="515" fill="#F0F1F3" font-size="24" font-weight="400" text-anchor="start">P1</text>
 <text x="113" y="515" fill="#F0F1F3" font-size="24" font-weight="700" text-anchor="start">ANT</text>
 <text x="194" y="515" fill="#F0F1F3" font-size="21" font-weight="400" text-anchor="start">ANTONELLI</text>
-<text x="493" y="515" fill="#F0F1F3" font-size="24" font-weight="400" text-anchor="end">380</text>
-<text x="606" y="515" fill="#D5B76B" font-size="24" font-weight="600" text-anchor="end">+119</text>
+<text x="493" y="515" fill="#F0F1F3" font-size="24" font-weight="400" text-anchor="end">390</text>
+<text x="606" y="515" fill="#D5B76B" font-size="24" font-weight="600" text-anchor="end">+111</text>
 <rect x="30" y="526" width="578" height="36" fill="#F0F1F3"/>
 <rect x="30" y="526" width="4" height="36" fill="#E82137"/>
 <text x="38" y="555" fill="#101319" font-size="24" font-weight="700" text-anchor="start">P2</text>
 <text x="113" y="555" fill="#101319" font-size="24" font-weight="700" text-anchor="start">VER</text>
 <text x="194" y="555" fill="#101319" font-size="21" font-weight="700" text-anchor="start">VERSTAPPEN</text>
-<text x="493" y="555" fill="#101319" font-size="24" font-weight="700" text-anchor="end">261</text>
+<text x="493" y="555" fill="#101319" font-size="24" font-weight="700" text-anchor="end">279</text>
 <text x="606" y="555" fill="#101319" font-size="24" font-weight="600" text-anchor="end">—</text>
 <text x="38" y="595" fill="#F0F1F3" font-size="24" font-weight="400" text-anchor="start">P3</text>
-<text x="113" y="595" fill="#F0F1F3" font-size="24" font-weight="700" text-anchor="start">HAM</text>
-<text x="194" y="595" fill="#F0F1F3" font-size="21" font-weight="400" text-anchor="start">HAMILTON</text>
-<text x="493" y="595" fill="#F0F1F3" font-size="24" font-weight="400" text-anchor="end">259</text>
-<text x="606" y="595" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="end">−2</text>
+<text x="113" y="595" fill="#F0F1F3" font-size="24" font-weight="700" text-anchor="start">RUS</text>
+<text x="194" y="595" fill="#F0F1F3" font-size="21" font-weight="400" text-anchor="start">RUSSELL</text>
+<text x="493" y="595" fill="#F0F1F3" font-size="24" font-weight="400" text-anchor="end">262</text>
+<text x="606" y="595" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="end">−17</text>
 <rect x="32" y="660" width="576" height="32" fill="#252B34"/>
 <text x="44" y="683" fill="#F0F1F3" font-size="21" font-weight="700" text-anchor="start" letter-spacing="0.6">LAST GRAND PRIX</text>
-<text x="596" y="683" fill="#9AA3B0" font-size="20" font-weight="600" text-anchor="end">01 NOV 2026</text>
-<text x="32" y="726" fill="#F0F1F3" font-size="29" font-weight="700" text-anchor="start" letter-spacing="-0.4">MEXICO CITY GP</text>
-<text x="32" y="754" fill="#9AA3B0" font-size="20" font-weight="400" text-anchor="start">MEXICO CITY / AUTÓDROMO HERMANOS RODRÍGUEZ</text>
-<text x="38" y="820" fill="#F0F1F3" font-size="42" font-weight="700" text-anchor="start">P5</text>
+<text x="596" y="683" fill="#9AA3B0" font-size="20" font-weight="600" text-anchor="end">08 NOV 2026</text>
+<text x="32" y="726" fill="#F0F1F3" font-size="29" font-weight="700" text-anchor="start" letter-spacing="-0.4">BRAZILIAN GP</text>
+<text x="32" y="754" fill="#9AA3B0" font-size="20" font-weight="400" text-anchor="start">SÃO PAULO / AUTÓDROMO JOSÉ CARLOS PACE</text>
+<text x="38" y="820" fill="#F0F1F3" font-size="42" font-weight="700" text-anchor="start">—</text>
 <text x="38" y="849" fill="#9AA3B0" font-size="20" font-weight="600" text-anchor="start">GRID</text>
-<text x="192" y="820" fill="#F0F1F3" font-size="42" font-weight="700" text-anchor="start">P1</text>
+<text x="192" y="820" fill="#F0F1F3" font-size="42" font-weight="700" text-anchor="start">P2</text>
 <text x="192" y="849" fill="#9AA3B0" font-size="20" font-weight="600" text-anchor="start">FINISH</text>
-<text x="346" y="820" fill="#F0F1F3" font-size="42" font-weight="700" text-anchor="start">+25</text>
+<text x="346" y="820" fill="#F0F1F3" font-size="42" font-weight="700" text-anchor="start">+18</text>
 <text x="346" y="849" fill="#9AA3B0" font-size="20" font-weight="600" text-anchor="start">RACE PTS</text>
 <text x="500" y="820" fill="#F0F1F3" font-size="42" font-weight="700" text-anchor="start">71</text>
 <text x="500" y="849" fill="#9AA3B0" font-size="20" font-weight="600" text-anchor="start">LAPS</text>
 <text x="32" y="895" fill="#9AA3B0" font-size="22" font-weight="700" text-anchor="start" letter-spacing="1">LAST 5 GRANDS PRIX</text>
-<text x="32" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R15</text>
-<text x="32" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P2</text>
-<text x="32" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+18</text>
+<text x="32" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R16</text>
+<text x="32" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P1</text>
+<text x="32" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+25</text>
 <path d="M135 907V1029" stroke="#353B45"/>
-<text x="147" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R16</text>
+<text x="147" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R17</text>
 <text x="147" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P1</text>
 <text x="147" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+25</text>
 <path d="M250 907V1029" stroke="#353B45"/>
-<text x="262" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R17</text>
-<text x="262" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P1</text>
-<text x="262" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+25</text>
+<text x="262" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R18</text>
+<text x="262" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P3</text>
+<text x="262" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+15</text>
 <path d="M365 907V1029" stroke="#353B45"/>
-<text x="377" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R18</text>
-<text x="377" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P3</text>
-<text x="377" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+15</text>
+<text x="377" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R19</text>
+<text x="377" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P1</text>
+<text x="377" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+25</text>
 <path d="M480 907V1029" stroke="#353B45"/>
-<text x="492" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R19</text>
-<text x="492" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P1</text>
-<text x="492" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+25</text>
+<text x="492" y="935" fill="#9AA3B0" font-size="24" font-weight="600" text-anchor="start">R20</text>
+<text x="492" y="987" fill="#F0F1F3" font-size="40" font-weight="700" text-anchor="start">P2</text>
+<text x="492" y="1023" fill="#D5B76B" font-size="26" font-weight="600" text-anchor="start">+18</text>
 <text x="32" y="1060" fill="#9AA3B0" font-size="18" font-weight="400" text-anchor="start" letter-spacing="0.7">RECENT FORM / GRAND PRIX RESULTS ONLY</text>
 </g>
 </svg>
