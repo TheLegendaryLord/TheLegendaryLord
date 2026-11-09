@@ -11,8 +11,8 @@
 ## Max Verstappen / Season report
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=02ce90314276" />
-  <img src="./assets/f1-max.svg?v=02ce90314276" width="100%" alt="Max Verstappen: 279 points, P2, 111 points behind the leader" />
+  <source media="(max-width: 600px)" srcset="./assets/f1-max-mobile.svg?v=73bf6f8c2b78" />
+  <img src="./assets/f1-max.svg?v=73bf6f8c2b78" width="100%" alt="Max Verstappen: 279 points, P2, 111 points behind the leader" />
 </picture>
 
 **Last Grand Prix:** Brazilian Grand Prix · 2026-11-08 · **P2** · **+18 race points**.
@@ -25,7 +25,7 @@
 | **2** | **Max Verstappen** | **Red Bull** | **279** |
 | 3 | George Russell | Mercedes | 262 |
 | 4 | Lewis Hamilton | Ferrari | 261 |
-| 5 | Charles Leclerc | Ferrari | 251 |
+| 5 | Charles Leclerc | Ferrari | 249 |
 
 <details>
 <summary>All drivers (25)</summary>
@@ -36,11 +36,11 @@
 | **2** | **Max Verstappen** | **Red Bull** | **279** |
 | 3 | George Russell | Mercedes | 262 |
 | 4 | Lewis Hamilton | Ferrari | 261 |
-| 5 | Charles Leclerc | Ferrari | 251 |
+| 5 | Charles Leclerc | Ferrari | 249 |
 | 6 | Lando Norris | McLaren | 246 |
 | 7 | Oscar Piastri | McLaren | 152 |
 | 8 | Isack Hadjar | Red Bull | 122 |
-| 9 | Liam Lawson | RB F1 Team / Red Bull | 87 |
+| 9 | Liam Lawson | RB F1 Team / Red Bull | 89 |
 | 10 | Pierre Gasly | Alpine F1 Team | 42 |
 | 11 | Arvid Lindblad | RB F1 Team | 38 |
 | 12 | Franco Colapinto | Alpine F1 Team | 27 |
@@ -60,7 +60,7 @@
 
 </details>
 
-<sub>Standings after Round 20. Last data change: 2026-11-08 20:47 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
+<sub>Standings after Round 20. Last data change: 2026-11-09 00:55 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
 
 <sub>Source: [Jolpica F1](https://api.jolpi.ca/ergast/f1/2026/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Official F1 standings](https://www.formula1.com/en/results/2026/drivers) · [Update status](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
 

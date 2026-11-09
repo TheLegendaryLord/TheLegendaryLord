@@ -52,7 +52,7 @@
       "surname": "Leclerc",
       "code": "LEC",
       "position": 5,
-      "points": "251",
+      "points": "249",
       "wins": 1,
       "number": "16",
       "team": "Ferrari"
@@ -96,7 +96,7 @@
       "surname": "Lawson",
       "code": "LAW",
       "position": 9,
-      "points": "87",
+      "points": "89",
       "wins": 0,
       "number": "30",
       "team": "RB F1 Team / Red Bull"
@@ -283,7 +283,7 @@
     "date": "2026-11-08",
     "circuit": "Autódromo José Carlos Pace",
     "venue": "São Paulo",
-    "grid": null,
+    "grid": 21,
     "laps": 71,
     "finish": "P2",
     "points": "18",
@@ -341,5 +341,5 @@
       "points": "18"
     }
   ],
-  "updated_at": "2026-11-08 20:47 UTC"
+  "updated_at": "2026-11-09 00:55 UTC"
 }
