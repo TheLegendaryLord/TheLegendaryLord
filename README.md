@@ -60,7 +60,7 @@
 
 </details>
 
-<sub>Standings after Round 20. Last data change: 2026-11-09 00:55 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
+<sub>Standings after Round 20. Last data change: 2026-11-10 17:50 UTC. Checked every 30 minutes. Standings update after results are published; updates may be delayed.</sub>
 
 <sub>Source: [Jolpica F1](https://api.jolpi.ca/ergast/f1/2026/driverstandings.json) · [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Official F1 standings](https://www.formula1.com/en/results/2026/drivers) · [Update status](https://github.com/TheLegendaryLord/TheLegendaryLord/actions/workflows/f1-tracker.yml)</sub>
 
